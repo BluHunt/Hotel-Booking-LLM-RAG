@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-03-24T01:35:48.312334",
+  "overall_accuracy": 0.0,
+  "test_cases": 8,
+  "results": [
+    {
+      "test_id": 1,
+      "category": "cancellation",
+      "question": "What is the cancellation rate?",
+      "answer": "ERROR: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8)",
+      "expected_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 2,
+      "category": "lead_time",
+      "question": "What is the average lead time for bookings?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "lead time",
+        "days"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "lead time",
+        "days"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 3,
+      "category": "hotel",
+      "question": "Which hotels have the most bookings?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 4,
+      "category": "country",
+      "question": "What countries do most guests come from?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "countr",
+        "national"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "countr",
+        "national"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 5,
+      "category": "revenue",
+      "question": "What is the total revenue for July 2017?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "revenue",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "revenue",
+        "booking",
+        "found"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 6,
+      "category": "stay_duration",
+      "question": "What is the average length of stay?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "average",
+        "stay",
+        "booking"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "average",
+        "stay",
+        "booking"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 7,
+      "category": "family",
+      "question": "How many bookings include children?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "children",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "children",
+        "booking",
+        "found"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 8,
+      "category": "special_requests",
+      "question": "What is the average number of special requests?",
+      "answer": "ERROR: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.OperationalError) table query_history has no column named query\n[SQL: INSERT INTO query_history (\"query\", answer, timestamp, relevant_booking_ids) VALUES (?, ?, ?, ?)]\n[parameters: ('What is the cancellation rate?', None, '2025-03-24', None)]\n(Background on this error at: https://sqlalche.me/e/20/e3q8) (Background on this error at: https://sqlalche.me/e/20/7s2a)",
+      "expected_patterns": [
+        "special",
+        "request",
+        "booking"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "special",
+        "request",
+        "booking"
+      ],
+      "score": 0
+    }
+  ]
+}

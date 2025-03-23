@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-03-24T01:47:12.168074",
+  "overall_accuracy": 76.19047619047619,
+  "test_cases": 8,
+  "results": [
+    {
+      "test_id": 1,
+      "category": "cancellation",
+      "question": "What is the cancellation rate?",
+      "answer": "The overall cancellation rate is 37.04%. Out of 477560 bookings, 176896 were canceled.",
+      "expected_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "matched_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "missing_patterns": [],
+      "score": 3
+    },
+    {
+      "test_id": 2,
+      "category": "lead_time",
+      "question": "What is the average lead time for bookings?",
+      "answer": "The average lead time for bookings is 18.8 days.",
+      "expected_patterns": [
+        "lead time",
+        "days"
+      ],
+      "matched_patterns": [
+        "lead time",
+        "days"
+      ],
+      "missing_patterns": [],
+      "score": 2
+    },
+    {
+      "test_id": 3,
+      "category": "hotel",
+      "question": "Which hotels have the most bookings?",
+      "answer": "The hotels with the most bookings are 'City Hotel' (317320 bookings), 'Resort Hotel' (160240 bookings).",
+      "expected_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "matched_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "missing_patterns": [],
+      "score": 2
+    },
+    {
+      "test_id": 4,
+      "category": "country",
+      "question": "What countries do most guests come from?",
+      "answer": "Based on the booking data, I found some related information, but I'm not sure how to answer your specific question.",
+      "expected_patterns": [
+        "countr",
+        "national"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "countr",
+        "national"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 5,
+      "category": "revenue",
+      "question": "What is the total revenue for July 2017?",
+      "answer": "The total revenue for July 2017 from the analyzed bookings is \u20ac4388.00.",
+      "expected_patterns": [
+        "revenue",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [
+        "revenue",
+        "booking"
+      ],
+      "missing_patterns": [
+        "found"
+      ],
+      "score": 2
+    },
+    {
+      "test_id": 6,
+      "category": "stay_duration",
+      "question": "What is the average length of stay?",
+      "answer": "The average length of stay is 2.8 nights, comprising 2.8 weekday nights and 0.0 weekend nights.",
+      "expected_patterns": [
+        "average",
+        "stay",
+        "booking"
+      ],
+      "matched_patterns": [
+        "average",
+        "stay"
+      ],
+      "missing_patterns": [
+        "booking"
+      ],
+      "score": 2
+    },
+    {
+      "test_id": 7,
+      "category": "family",
+      "question": "How many bookings include children?",
+      "answer": "Out of 477560 bookings, 34360 (7.19%) include children and 3668 (0.77%) include babies.",
+      "expected_patterns": [
+        "children",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [
+        "children",
+        "booking"
+      ],
+      "missing_patterns": [
+        "found"
+      ],
+      "score": 2
+    },
+    {
+      "test_id": 8,
+      "category": "special_requests",
+      "question": "What is the average number of special requests?",
+      "answer": "The average number of special requests per booking is 0.57.",
+      "expected_patterns": [
+        "special",
+        "request",
+        "booking"
+      ],
+      "matched_patterns": [
+        "special",
+        "request",
+        "booking"
+      ],
+      "missing_patterns": [],
+      "score": 3
+    }
+  ]
+}

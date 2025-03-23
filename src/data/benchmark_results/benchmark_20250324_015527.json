@@ -1,0 +1,75 @@
+{
+  "initialization": {
+    "average": 1.021201753616333,
+    "min": 0.9452919960021973,
+    "max": 1.1185805797576904,
+    "median": 1.0166733264923096,
+    "stddev": 0.06250344817232453
+  },
+  "query_processing": {
+    "cancellation": {
+      "question": "What is the cancellation rate?",
+      "average": 0.20983686447143554,
+      "min": 0.2041187286376953,
+      "max": 0.21952056884765625,
+      "median": 0.2069394588470459,
+      "stddev": 0.006345918801442936
+    },
+    "lead_time": {
+      "question": "What is the average lead time for bookings?",
+      "average": 0.40541930198669435,
+      "min": 0.38280653953552246,
+      "max": 0.41922903060913086,
+      "median": 0.4073662757873535,
+      "stddev": 0.014717420191189635
+    },
+    "hotel": {
+      "question": "Which hotels have the most bookings?",
+      "average": 0.19769630432128907,
+      "min": 0.1925334930419922,
+      "max": 0.20566630363464355,
+      "median": 0.19337129592895508,
+      "stddev": 0.006664239656044119
+    },
+    "country": {
+      "question": "What countries do most guests come from?",
+      "average": 4.842610311508179,
+      "min": 4.750515937805176,
+      "max": 4.975930690765381,
+      "median": 4.806926727294922,
+      "stddev": 0.09996339508809499
+    },
+    "revenue": {
+      "question": "What is the total revenue for July 2017?",
+      "average": 0.16476879119873047,
+      "min": 0.1607496738433838,
+      "max": 0.17551159858703613,
+      "median": 0.1616964340209961,
+      "stddev": 0.006148070809049969
+    },
+    "stay_duration": {
+      "question": "What is the average length of stay?",
+      "average": 0.006539583206176758,
+      "min": 0.005913257598876953,
+      "max": 0.00781393051147461,
+      "median": 0.006185054779052734,
+      "stddev": 0.0007894943163075562
+    },
+    "family": {
+      "question": "How many bookings include children?",
+      "average": 0.23894591331481935,
+      "min": 0.2343151569366455,
+      "max": 0.24245834350585938,
+      "median": 0.24095392227172852,
+      "stddev": 0.004097565559505725
+    },
+    "special_requests": {
+      "question": "What is the average number of special requests?",
+      "average": 0.23005571365356445,
+      "min": 0.2237071990966797,
+      "max": 0.23508238792419434,
+      "median": 0.23024392127990723,
+      "stddev": 0.004879741273837479
+    }
+  }
+}

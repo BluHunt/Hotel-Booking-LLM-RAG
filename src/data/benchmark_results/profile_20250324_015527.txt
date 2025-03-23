@@ -1,0 +1,28 @@
+         1611759 function calls (1611703 primitive calls) in 0.361 seconds
+
+   Ordered by: cumulative time
+   List reduced from 499 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.361    0.361 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:26(answer_question)
+        1    0.004    0.004    0.231    0.231 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\vectorstore.py:189(search)
+        1    0.000    0.000    0.227    0.227 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\vectorstore.py:272(_search_cancellation)
+  1432755    0.191    0.000    0.191    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.119    0.119 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:93(_generate_answer)
+        1    0.000    0.000    0.119    0.119 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:129(_answer_cancellation)
+        2    0.010    0.005    0.119    0.059 {built-in method builtins.sum}
+        1    0.050    0.050    0.116    0.116 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\vectorstore.py:276(<listcomp>)
+        1    0.047    0.047    0.111    0.111 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\vectorstore.py:275(<listcomp>)
+   176897    0.048    0.000    0.109    0.000 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:138(<genexpr>)
+     28/4    0.000    0.000    0.009    0.002 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\state_changes.py:95(_go)
+        2    0.000    0.000    0.009    0.004 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py:1933(commit)
+      4/2    0.000    0.000    0.009    0.004 <string>:1(commit)
+      4/2    0.000    0.000    0.009    0.004 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py:1249(commit)
+        1    0.000    0.000    0.005    0.005 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:497(_log_query)
+        1    0.000    0.000    0.005    0.005 C:\Users\Asus\Documents\Project\LLM RAG\src\qa\qa_system.py:522(_update_query_history)
+      4/2    0.000    0.000    0.005    0.003 <string>:1(_prepare_impl)
+      4/2    0.000    0.000    0.005    0.003 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py:1214(_prepare_impl)
+        2    0.000    0.000    0.005    0.003 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py:4282(flush)
+        2    0.000    0.000    0.005    0.003 C:\Users\Asus\AppData\Local\Programs\Python\Python310\lib\site-packages\sqlalchemy\orm\session.py:4331(_flush)
+
+

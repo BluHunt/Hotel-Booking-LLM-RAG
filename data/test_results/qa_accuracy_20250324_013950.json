@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-03-24T01:39:50.828270",
+  "overall_accuracy": 19.047619047619047,
+  "test_cases": 8,
+  "results": [
+    {
+      "test_id": 1,
+      "category": "cancellation",
+      "question": "What is the cancellation rate?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "cancellation rate",
+        "%",
+        "canceled"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 2,
+      "category": "lead_time",
+      "question": "What is the average lead time for bookings?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "lead time",
+        "days"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "lead time",
+        "days"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 3,
+      "category": "hotel",
+      "question": "Which hotels have the most bookings?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "hotel",
+        "resort"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 4,
+      "category": "country",
+      "question": "What countries do most guests come from?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "countr",
+        "national"
+      ],
+      "matched_patterns": [],
+      "missing_patterns": [
+        "countr",
+        "national"
+      ],
+      "score": 0
+    },
+    {
+      "test_id": 5,
+      "category": "revenue",
+      "question": "What is the total revenue for July 2017?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "revenue",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [
+        "booking"
+      ],
+      "missing_patterns": [
+        "revenue",
+        "found"
+      ],
+      "score": 1
+    },
+    {
+      "test_id": 6,
+      "category": "stay_duration",
+      "question": "What is the average length of stay?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "average",
+        "stay",
+        "booking"
+      ],
+      "matched_patterns": [
+        "booking"
+      ],
+      "missing_patterns": [
+        "average",
+        "stay"
+      ],
+      "score": 1
+    },
+    {
+      "test_id": 7,
+      "category": "family",
+      "question": "How many bookings include children?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "children",
+        "booking",
+        "found"
+      ],
+      "matched_patterns": [
+        "booking"
+      ],
+      "missing_patterns": [
+        "children",
+        "found"
+      ],
+      "score": 1
+    },
+    {
+      "test_id": 8,
+      "category": "special_requests",
+      "question": "What is the average number of special requests?",
+      "answer": "I don't have enough information to answer this question based on the booking data.",
+      "expected_patterns": [
+        "special",
+        "request",
+        "booking"
+      ],
+      "matched_patterns": [
+        "booking"
+      ],
+      "missing_patterns": [
+        "special",
+        "request"
+      ],
+      "score": 1
+    }
+  ]
+}
